@@ -7,8 +7,13 @@
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#000"
+
+    },
+    "android": {
+      "package": "com.zaincompany.winek",
+      "versionCode": 1
     },
     "updates": {
       "fallbackToCacheTimeout": 0
